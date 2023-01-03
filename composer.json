@@ -1,0 +1,19 @@
+{
+    "name": "multimontana/heroku-scheduler-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony HerokuSchedulerBundle",
+    "keywords": ["Heroku Scheduler"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artyom Harutyunyan",
+            "email": "artyom@lifebeget.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9"
+    },
+    "autoload": {
+        "psr-4": { "multimontana\\HerokuSchedulerBundle\\": "" }
+    }
+}
